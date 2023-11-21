@@ -1,0 +1,9 @@
+.button {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.office__skip-btn {
+    display: flex;
+    justify-content: space-around;
+    margin: 3rem;
+}

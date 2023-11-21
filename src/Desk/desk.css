@@ -1,0 +1,10 @@
+.desk {
+    height: 50vh;
+    width: 60vw;
+}
+
+.desk__computer {
+    position: absolute;
+    top: 10rem;
+    right: 24rem;
+}
