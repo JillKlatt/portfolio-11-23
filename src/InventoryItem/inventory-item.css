@@ -1,0 +1,7 @@
+.inventory-item {
+    z-index: 2;
+}
+
+.inventory-item.hidden {
+    display: none;
+}

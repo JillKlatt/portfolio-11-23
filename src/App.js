@@ -1,11 +1,15 @@
-import Desk from './Desk/Desk';
 import './app.css';
+import Desk from './Desk/Desk';
+import { Provider } from "react-redux";
+import store from "./redux/store";
 
 const App = () => {
   return (
-    <div className="main">
-      <Desk />
-    </div>
+    <Provider store={store}>
+      <div className="main">
+        <Desk />
+      </div>
+    </Provider>
   );
 }
 

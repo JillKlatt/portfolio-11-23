@@ -1,0 +1,27 @@
+[
+    {
+        "label": "Personal Projects",
+        "content": "Here are personal projects!",
+        "icon": "folder"
+    },
+    {
+        "label": "Professional Work",
+        "content": "Here are professional projects!",
+        "icon": "folder"
+    },
+    {
+        "label": "Resume",
+        "content": "Here is my resume!",
+        "icon": "folder"
+    },
+    {
+        "label": "Fun facts",
+        "content": "Here are fun facts!",
+        "icon": "folder"
+    },
+    {
+        "label": "VSCode",
+        "content": "Here's vscode!",
+        "icon": "vscode"
+    }
+]

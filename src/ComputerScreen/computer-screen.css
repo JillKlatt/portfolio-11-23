@@ -23,10 +23,15 @@
     transition: visibility 0s linear 0.33s, opacity 0.33s linear, transform 0.33s linear;
 }
 
-.computer-screen__folders, .computer-screen__btn {
+.computer-screen__icons, .computer-screen__btn {
     display: flex;
     justify-content: space-around;
     margin: 3rem;
+}
+
+.computer-screen__svg {
+    height: 4rem;
+    width: 4rem;
 }
 
 @keyframes showScreen {

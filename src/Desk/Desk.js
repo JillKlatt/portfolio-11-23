@@ -1,8 +1,9 @@
-import { useState } from 'react';
 import './desk.css';
+import { useState } from 'react';
 import ComputerScreen from '../ComputerScreen/ComputerScreen';
 import Button from '../Button/Button';
 import Inventory from '../Inventory/Inventory';
+import Cabinet from '../Cabinet/Cabinet';
 
 const Desk = () => {
 
@@ -29,12 +30,15 @@ const Desk = () => {
                 </g>
             </svg>
             <div className='desk__inventory'>
-                <Button text='Open Inventory' callback={handleInventoryOpen} />
+                <Button text='Open Inventory' classes='desktop__inventory--btn' callback={handleInventoryOpen} />
                 <Inventory isShown={showInventory} setIsShown={setShowInventory} />
             </div>
             <div className='desk__computer'>
-                <Button text='Open Desktop' callback={handleComputerOpen} />
+                <Button text='Open Desktop' classes='desktop__computer--btn' callback={handleComputerOpen} />
                 <ComputerScreen isShown={showComputer} setIsShown={setShowComputer} />
+            </div>
+            <div className='desk__cabinet'>
+                <Cabinet />
             </div>
             <div className='office__skip-btn'>
                 <Button text='Skip the game, show me the resume' />

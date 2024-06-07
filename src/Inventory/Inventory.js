@@ -7,9 +7,8 @@ const Inventory = ({ isShown, setIsShown }) => {
         setIsShown(false);
     }
 
-
     return (
-        <div className={`inventory ${isShown ? 'shown' : 'hidden'}`}>
+        <div className={`drawer-content ${isShown ? 'shown' : 'hidden'}`}>
             <h2>
                 Inventory!
             </h2>

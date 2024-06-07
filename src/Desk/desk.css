@@ -1,10 +1,18 @@
 .desk {
-    height: 50vh;
-    width: 60vw;
+    height: 30rem;
+    width: 30rem;
 }
 
 .desk__computer {
     position: absolute;
-    top: 10rem;
-    right: 24rem;
+    top: 7.5rem;
+    right: 18rem;
+}
+
+.desk__cabinet {
+    position: fixed;
+    top: 17rem;
+    left: 13rem;
+    height: 14rem;
+    width: 7rem;
 }
